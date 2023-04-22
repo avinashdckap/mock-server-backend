@@ -1,16 +1,114 @@
 {
-  "posts": [
+  "users": [
     {
-      "title": "post1",
-      "body": "this is post1",
-      "author": "yes",
-      "id": 1
+      "id": 1,
+      "first_name": "dev",
+      "last_name": "dev",
+      "email": "dev@gmail.com",
+      "address": "some random adress,chennai"
     },
     {
-      "title": "post1",
-      "body1": "this is post1",
-      "author": "yes",
-      "id": 2
+      "id": 2,
+      "first_name": "charlie",
+      "last_name": "charlie",
+      "email": "charlie@gmail.com",
+      "address": "some random adress,chennai"
+    },
+    {
+      "first_name": "dev",
+      "last_name": "dev",
+      "email": "dev@gmail.com",
+      "address": "some random adress,chennai",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Prouduct A",
+      "description": "this is product description for A",
+      "price": "$100",
+      "category": "categoryA",
+      "images": []
+    },
+    {
+      "id": 2,
+      "name": "Product B",
+      "description": "this is product desciption for B",
+      "price": "$100",
+      "category": "categoryB",
+      "images": []
+    },
+    {
+      "id": 3,
+      "name": "Product C",
+      "description": "this is product desciption for C",
+      "price": "$100",
+      "category": "categoryC",
+      "images": []
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 1,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "productId": 2,
+      "quantity": 1
+    },
+    {
+      "userId": 1,
+      "productId": 1,
+      "quantity": 2,
+      "id": 3
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 3
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "productId": 1
+    },
+    {
+      "userId": 1,
+      "productId": 3,
+      "id": 3
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "rating": 1,
+      "comment": "review1 for product A",
+      "productId": 1
+    },
+    {
+      "id": 1,
+      "rating": 5,
+      "comment": "review2 for product A",
+      "productId": 1
+    },
+    {
+      "id": 1,
+      "rating": 3,
+      "comment": "review1 for product B",
+      "productId": 2
+    },
+    {
+      "id": 1,
+      "rating": 3,
+      "comment": "review1 for product C",
+      "productId": 3
     }
   ]
 }
